@@ -1,4 +1,4 @@
-# robots.txt for seedfarm.kr
+# robots.txt for seedfarm.pages.dev
 
 # Default — allow all standard search crawlers
 User-agent: *
@@ -83,4 +83,4 @@ User-agent: bingbot
 Allow: /
 
 # Sitemaps
-Sitemap: https://seedfarm.kr/sitemap.xml
+Sitemap: https://seedfarm.pages.dev/sitemap.xml
