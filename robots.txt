@@ -1,0 +1,86 @@
+# robots.txt for seedfarm.kr
+
+# Default — allow all standard search crawlers
+User-agent: *
+Allow: /
+Disallow: /AGENTS.md
+Disallow: /CLAUDE.md
+
+# Naver (Yeti)
+User-agent: Yeti
+Allow: /
+
+# Daum (Daumoa)
+User-agent: Daumoa
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# ─────────────────────────────────────────────────────────
+# AI / LLM crawlers — explicitly allowed for AEO citation
+# ─────────────────────────────────────────────────────────
+
+# Anthropic
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google (AI / Bard / Gemini training)
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl (training data, downstream of many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Meta
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Bytedance / TikTok
+User-agent: Bytespider
+Allow: /
+
+# Microsoft / Copilot
+User-agent: bingbot
+Allow: /
+
+# Sitemaps
+Sitemap: https://seedfarm.kr/sitemap.xml
