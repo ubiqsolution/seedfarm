@@ -486,8 +486,8 @@ function CtaFooter() {
           <h5>RESOURCES</h5>
           <a href="#painpoints">시장 인사이트</a>
           <a href="#about">회사소개</a>
-          <a href="terms.html">이용약관</a>
-          <a href="privacy.html">개인정보처리방침</a>
+          <a href="/terms">이용약관</a>
+          <a href="/privacy">개인정보처리방침</a>
         </div>
         <div className="footer-col">
           <h5>CONTACT</h5>

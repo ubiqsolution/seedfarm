@@ -5,9 +5,11 @@
 #   200 = rewrite (URL stays clean in the address bar)
 #   301 = permanent redirect (browser URL changes)
 
-# Clean URLs — visible URL stays /terms, content comes from /terms.html
-/terms          /terms.html         200
-/privacy        /privacy.html       200
+# Note: /terms and /privacy are NOT listed here. Cloudflare Pages already serves
+# them natively via its built-in clean-URL behavior (auto-strips .html). Adding an
+# explicit /terms -> /terms.html rewrite would cause an infinite redirect loop
+# because CF then 308s /terms.html back to /terms.
+
 /sitemap        /sitemap.xml        200
 
 # Convenience aliases for LLM/AEO discovery

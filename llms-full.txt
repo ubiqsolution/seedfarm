@@ -217,7 +217,7 @@ A. B2B·B2G는 별도 협의(여신거래 가능), B2C는 네이버 스마트스
 ## 7. 관련 페이지
 
 - 메인 페이지: https://seedfarm.pages.dev/
-- 이용약관: https://seedfarm.pages.dev/terms.html (시행 2026-05-14)
-- 개인정보처리방침: https://seedfarm.pages.dev/privacy.html (시행 2026-05-14)
+- 이용약관: https://seedfarm.pages.dev/terms (시행 2026-05-14)
+- 개인정보처리방침: https://seedfarm.pages.dev/privacy (시행 2026-05-14)
 - 네이버 스마트스토어: https://mkt.shopping.naver.com/link/6836847362fffc0a4a4b1793
 - LLM-friendly 요약: https://seedfarm.pages.dev/llms.txt
