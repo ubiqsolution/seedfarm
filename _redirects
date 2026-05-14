@@ -1,0 +1,19 @@
+# Cloudflare Pages redirects / rewrites
+# Syntax: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Status codes:
+#   200 = rewrite (URL stays clean in the address bar)
+#   301 = permanent redirect (browser URL changes)
+
+# Clean URLs — visible URL stays /terms, content comes from /terms.html
+/terms          /terms.html         200
+/privacy        /privacy.html       200
+/sitemap        /sitemap.xml        200
+
+# Convenience aliases for LLM/AEO discovery
+/llms           /llms.txt           200
+/ai.txt         /llms.txt           200
+/llms-full      /llms-full.txt      200
+
+# robots.txt convenience (some scanners try /robots without extension)
+/robots         /robots.txt         200

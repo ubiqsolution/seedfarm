@@ -1,0 +1,53 @@
+# Cloudflare Pages headers
+# Syntax: https://developers.cloudflare.com/pages/configuration/headers/
+
+# ─── Global: security headers ────────────────────────────────────────────────
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=(), geolocation=(), camera=(), microphone=(), payment=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# ─── HTML: short cache, must revalidate ──────────────────────────────────────
+# (so content updates propagate quickly; CF auto-handles 304 via ETag)
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# ─── Static assets: 1 hour cache ─────────────────────────────────────────────
+# Conservative max-age since this site has no content hashing in filenames.
+# Updates propagate within an hour; CF still serves 304s via ETag.
+/styles.css
+  Cache-Control: public, max-age=3600
+
+/legal.css
+  Cache-Control: public, max-age=3600
+
+/data.js
+  Cache-Control: public, max-age=3600
+
+# JSX files served as JS to the browser (Babel reads them as text/babel anyway)
+/*.jsx
+  Cache-Control: public, max-age=3600
+  Content-Type: application/javascript; charset=utf-8
+
+# ─── SEO/AEO endpoints: allow cross-origin fetch ─────────────────────────────
+# LLM agents and SEO tools often fetch these from foreign origins.
+/robots.txt
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/llms.txt
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
+
+/llms-full.txt
+  Cache-Control: public, max-age=3600
+  Access-Control-Allow-Origin: *
