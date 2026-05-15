@@ -493,13 +493,16 @@ function CtaFooter() {
           <h5>CONTACT</h5>
           <li>9292@ubiqsolution.com</li>
           <li>1600&mdash;5693</li>
-          <li>경기도 · KR</li>
+          <li>경기도 구리시 아차산로500번길 16, 102호</li>
           <li style={{ marginTop: "12px", fontFamily: "var(--font-mono)", fontSize: "11px", letterSpacing: "0.08em" }}>EST. 2011</li>
         </div>
       </div>
 
       <footer className="footer">
-        <div>© 2026 ubiqsolution. All rights reserved.</div>
+        <div>
+          유비큐솔루션 · 대표 김시기 · 사업자등록번호 132-10-98552 · 통신판매업 신고 제2011-경기구리-0272호 · 호스팅 Cloudflare<br/>
+          © 2026 ubiqsolution. All rights reserved.
+        </div>
         <div style={{ fontFamily: "var(--font-serif-en)", fontStyle: "italic" }}>
           From seed to landscape.
         </div>

@@ -67,7 +67,9 @@ const noscript = `
         <li>전화: <a href="tel:1600-5693">1600-5693</a> (평일 10:00–17:00)</li>
         <li>이메일: <a href="mailto:9292@ubiqsolution.com">9292@ubiqsolution.com</a></li>
         <li>쇼핑몰: <a href="https://mkt.shopping.naver.com/link/6836847362fffc0a4a4b1793">네이버 스마트스토어</a></li>
+        <li>주소: 경기도 구리시 아차산로500번길 16, 102호</li>
       </ul>
+      <p>운영사: 유비큐솔루션 · 대표 김시기 · 사업자등록번호 132-10-98552 · 통신판매업 신고 제2011-경기구리-0272호</p>
     </header>
 
     <main>
