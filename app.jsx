@@ -247,11 +247,11 @@ function Services() {
   const [open, setOpen] = useState("lawn");
   return (
     <section className="section svc" id="services">
-      <div className="section-eyebrow">5 services · one source</div>
+      <div className="section-eyebrow">6 services · one source</div>
       <h2 className="section-title">
         잔디 한 줌부터<br />
         <span className="ital">Land Scape</span><br />
-        한 면까지, 다섯가지를<br />
+        한 면까지, 여섯가지를<br />
         한곳에서.
       </h2>
       <p className="section-sub">
