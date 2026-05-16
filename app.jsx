@@ -409,7 +409,7 @@ function Bento() {
         </div>
         <div className="bento-cell lime">
           <div className="label">잡초 혼입률</div>
-          <div className="value">≤0.5<span style={{ fontSize: "32px" }}>%</span></div>
+          <div className="value">0<span style={{ fontSize: "32px" }}>%</span></div>
           <div className="desc">정밀 정선 라인</div>
         </div>
       </div>
