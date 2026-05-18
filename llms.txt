@@ -41,7 +41,7 @@
 
 ## 사이트맵
 
-- [메인 페이지](https://seedfarm.pages.dev/): 회사 소개·서비스·고객 세그먼트·핵심 페인포인트
-- [이용약관](https://seedfarm.pages.dev/terms): 서비스 이용약관 (2026-05-14 시행)
-- [개인정보처리방침](https://seedfarm.pages.dev/privacy): 개인정보 처리 방침
-- [전체 상세 내용 (LLM용 풀텍스트)](https://seedfarm.pages.dev/llms-full.txt)
+- [메인 페이지](https://seedfarm.kr/): 회사 소개·서비스·고객 세그먼트·핵심 페인포인트
+- [이용약관](https://seedfarm.kr/terms): 서비스 이용약관 (2026-05-14 시행)
+- [개인정보처리방침](https://seedfarm.kr/privacy): 개인정보 처리 방침
+- [전체 상세 내용 (LLM용 풀텍스트)](https://seedfarm.kr/llms-full.txt)
