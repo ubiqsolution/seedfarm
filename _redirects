@@ -19,3 +19,10 @@
 
 # robots.txt convenience (some scanners try /robots without extension)
 /robots         /robots.txt         200
+
+# Force 404 for internal docs that get accidentally requested.
+# Without this, CF Pages' SPA fallback returns index.html with 200 OK,
+# causing Google to index these URLs (GSC: "Indexed, though blocked by robots.txt").
+# These files are gitignored and never deployed, but the URL paths still need a hard 404.
+/AGENTS.md      /404                404
+/CLAUDE.md      /404                404
