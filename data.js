@@ -175,7 +175,7 @@ window.SEEDFARM_DATA = {
       id: "b2b-golf",
       tag: "B2B",
       label: "골프장 · 파크골프장 · 운동장",
-      persona: ["골프장 · 파크골프장 · 운동장", "관리자"],
+      persona: ["골프장 · 파크골프장", "운동장 관리자"],
       personaEm: "Green Keeper",
       meta: {
         "구매 단위": "20kg 이상 대량 / 시즌 정기발주",
